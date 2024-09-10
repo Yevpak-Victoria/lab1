@@ -1,0 +1,32 @@
+.registration-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input{
+    width: 30vh;
+    height: 3vh;
+}
+
+.downPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select, button{
+    padding: 5px;
+    width: 15vh;
+    height: 5vh;
+}
+
+button{
+    background-color: aquamarine;
+    border-style:outset;
+    border-color: aquamarine;
+    cursor: pointer;
+}
